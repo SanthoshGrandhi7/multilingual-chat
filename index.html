@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multilingual Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <select id="languageSelect">
+    <option value="en">English</option>
+    <option value="te">Telugu</option>
+    <option value="hi">Hindi</option>
+    <option value="es">Spanish</option>
+    <option value="fr">French</option>
+  </select>
+
+  <input id="userName" placeholder="Mee Peru..." />
+  <div id="chatArea"></div>
+  <input id="messageBox" placeholder="Mee message..." />
+  <button onclick="sendMessage()">Send</button>
+
+  <!-- Firebase scripts -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
